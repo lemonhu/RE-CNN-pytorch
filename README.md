@@ -2,6 +2,8 @@
 
 Pytorch Implementation of Deep Learning Approach for Relation Extraction Challenge([**SemEval-2010 Task #8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals**](https://docs.google.com/document/d/1QO_CnmvNRnYwNWu1-QCAeR5ToQYkXUqFeAJbdEhsq7w/preview)) via Convolutional Neural Network.
 
+通过卷积神经网络的深度学习方法进行关系抽取/分类的PyTorch实现。
+
 Welcome to watch, star or fork.
 
 ![Architecture](./img/Architecture.jpeg)
