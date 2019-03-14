@@ -1,8 +1,8 @@
 # Convolutional Neural Network for Relation Extraction
 
-Pytorch Implementation of Deep Learning Approach for Relation Extraction Challenge([**SemEval-2010 Task #8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals**](https://docs.google.com/document/d/1QO_CnmvNRnYwNWu1-QCAeR5ToQYkXUqFeAJbdEhsq7w/preview)) via Convolutional Neural Network.
+Pytorch Implementation of Deep Learning Approach for Relation Extraction Challenge([**SemEval-2010 Task #8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals**](https://docs.google.com/document/d/1QO_CnmvNRnYwNWu1-QCAeR5ToQYkXUqFeAJbdEhsq7w/preview)) via Convolutional Neural Network with multi-size convolution kernels.
 
-通过卷积神经网络的深度学习方法进行关系抽取/分类的PyTorch实现。
+通过多尺寸卷积核卷积神经网络的深度学习方法进行关系抽取/分类的PyTorch实现。
 
 Welcome to watch, star or fork.
 
@@ -10,12 +10,12 @@ Welcome to watch, star or fork.
 
 ## Requirements
 
-We recommend using python3 and a conda env.
+This repo was tested on Python 3.5+ and PyTorch 0.4.1/1.0.0. The requirements are:
 
-```shell
-source activate your_env
-pip install -r requirements.txt
-```
+- torch >= 0.4.1
+- numpy
+- sklearn
+- tqdm
 
 ## Data: SemEval-2010 Task #8
 
